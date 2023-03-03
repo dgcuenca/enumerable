@@ -1,5 +1,4 @@
 module MyEnumerable
-  
   def any?
     @list.each do |n|
       return true if yield n
